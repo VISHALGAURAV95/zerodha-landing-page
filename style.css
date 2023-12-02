@@ -1,0 +1,49 @@
+html {
+  -webkit-text-size-adjust: 100%;
+}
+html, body {
+  font-family: "Inter",serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.parrent{
+  display: flex;
+  justify-content:space-between;
+  margin: 20px;
+}
+
+.child2{
+  justify-content:space-between;
+}
+span{
+  margin:20px;
+  color: #666;
+  cursor: pointer;
+}
+h1{
+  font-size: 50px;
+  font-weight: 500;
+}
+h5{
+  font-size: 25px;
+  margin-bottom: -1px;
+  font-weight: 400;
+}
+.h1{
+  margin-bottom: -26px;
+}
+.button{
+  font-size: 1.2em;
+    line-height: 1.2em;
+    font-weight: 500;
+  background-color:#387ed1;
+  color: white;
+  padding:10px 30px 10px 30px;
+  border-radius: 3px;
+  border: 1px solid rgba(0,0,0,0);
+  text-align: center;
+  display:inline-block;
+  box-sizing: border-box;
+  cursor: pointer;
+  white-space: nowrap;
+  }
